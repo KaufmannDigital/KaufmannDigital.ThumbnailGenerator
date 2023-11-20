@@ -2,7 +2,7 @@
     "description": "",
     "type": "neos-package",
     "require": {
-        "neos/media": "^7.0"
+        "neos/media": ">=7.0"
     },
     "name": "kaufmanndigital/thumbnailgenerators",
     "autoload": {
