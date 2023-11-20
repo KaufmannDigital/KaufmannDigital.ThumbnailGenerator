@@ -1,0 +1,19 @@
+{
+    "description": "",
+    "type": "neos-package",
+    "require": {
+        "neos/neos": "^8.0"
+    },
+    "name": "kaufmanndigital/thumbnailgenerators",
+    "autoload": {
+        "psr-4": {
+            "KaufmannDigital\\ThumbnailGenerators\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "KaufmannDigital.ThumbnailGenerators"
+        }
+    }
+}
+

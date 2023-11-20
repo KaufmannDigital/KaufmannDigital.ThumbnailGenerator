@@ -1,0 +1,9 @@
+Neos:
+  Media:
+    thumbnailGenerators:
+      KaufmannDigital\ThumbnailGenerators\ThumbnailGenerator\GraphicsMagicPdfGenerator:
+        resolution: 120
+        supportedExtensions:
+          - pdf
+        paginableDocuments:
+          - pdf
