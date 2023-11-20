@@ -12,7 +12,16 @@ use Neos\Media\Exception;
  */
 class GraphicsMagicPdfGenerator extends AbstractThumbnailGenerator
 {
+    
+    /**
+     * The priority for this thumbnail generator.
+     *
+     * @var integer
+     * @api
+     */
+    protected static $priority = 5;
 
+    
     public function canRefresh(Thumbnail $thumbnail)
     {
         return (
